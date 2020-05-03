@@ -1,0 +1,84 @@
+<html>
+<style>
+input[type=text],select{
+width:100%;
+padding:10px 20px;
+margin:8px;
+display:inline-block;
+border:1px white;
+border-radius:4px;
+box-sizing:border-box;
+}
+input[type=submit]{
+width:100%;
+background-color:green;
+color:white;
+padding:14px 20px;
+margin:8px;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+input[type=submit]:hover{
+background-color:RED;
+}
+div{
+border-radius:5px;
+background-color:skyblue;
+padding:20px;
+}
+</style>
+<body>
+<h3 style="color:RED";
+align="center">
+ your profile</h3>
+
+<div class="signup-w3ls">   
+    <div class="signup-agile1">
+        <form action="/Server_ name.php" method="post">
+
+            <div class="form-control"> 
+                <label class="header">Profile Photo:</label>
+<input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+</div>
+<div>
+<form action="/Server_ name.php">
+First Name:<br>
+<input type="text" name="YOUR NAME"><br>
+Last Name:<br>
+<input type="text" name="subscription"><br>
+<input type="radio"name="gender" value="VIP" checked>VIP<br>
+<input type="radio"name="gender" value="BRAND" checked>BRAND<br>
+
+<label for="your plan"> THE PLAN YOU CHOOSE:
+</label>
+<select id="The plan">
+<option
+value="Monthlyplan">Rs250 per month</option>
+<option
+value="weekly plan">Rs 30 per week</option>
+<option
+value="Yearly membership">Get you premium</option>
+<option
+value="Branded shows">Rs 2500 per year</option>
+
+
+</select>
+<label for="Payment mode"> Your payment:
+</label>
+<select id="Card link">
+<option
+value="E-sewa">Through E-sewa</option>
+<option
+value="Paypal">Paypal Nepal</option>
+<option
+value="IME PAY">Your Response on IME</option>
+</select>
+
+<input type="Submit" value="Login here">
+
+
+</form>
+</body>
+</html>
+
